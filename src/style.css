@@ -1,15 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
 body{
     margin: 0;
     display: flex;
     justify-content: center;
     align-items: center;
  height: 100vh;
+ background-color: #48cae4;
+ flex-direction: column;
 }
 
 .gameMap{
     display: grid;
     grid-template-columns: repeat(7,1fr);
     width: 448px;
+    background-color: #023e8a;
 }
 
 .tile{
@@ -21,4 +25,17 @@ body{
     justify-content: center;
     font-size: 50px;
     user-select: none;
+    box-sizing:border-box;
+}
+
+h1{
+   font-size: 50px;
+   font-family: 'Inter', sans-serif;
+}
+
+dialog{
+    background-color: #48cae4;
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
 }

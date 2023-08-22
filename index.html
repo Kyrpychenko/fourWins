@@ -7,7 +7,12 @@
     <title>Vite + TS</title>
   </head>
   <body>
+    <h1>Connect Four</h1>
     <div class="gameMap"></div>
+    <dialog class="win">
+      <p></p>
+      <button class="restart" onclick="document.querySelector('dialog').close(); game()">Restart</button>
+    </dialog>
     <script type="module" src="/src/main.ts"></script>
   </body>
 </html>
